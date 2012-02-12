@@ -274,7 +274,7 @@ $(document).ready(function() {
   $(window).blur(function() {
     if (bg.lastWindow) {
       // if this is a spawned window close it on loss of focus
-      window.close();
+      //window.close();
     }
   });
 
